@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@variant dark (&:is(.dark, .dark *));
+
+@layer base {
+  body {
+    @apply antialiased text-stone-900 bg-stone-50 dark:text-stone-100 dark:bg-stone-950 transition-colors duration-300;
+  }
+}
+
+/* Custom scrollbar for dark mode */
+.dark ::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1c1917;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #44403c;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #57534e;
+}

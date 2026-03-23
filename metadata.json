@@ -1,0 +1,5 @@
+{
+  "name": "Commodities Management System",
+  "description": "A comprehensive commodities management system with role-based access control, product tracking, and real-time dashboard analytics.",
+  "requestFramePermissions": []
+}
